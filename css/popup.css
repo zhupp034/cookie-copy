@@ -1,0 +1,46 @@
+.button {
+    color: #fff;
+    background: #40a9ff;
+    border-color: #40a9ff;
+    line-height: 1.5715;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #d9d9d9;
+    height: 32px;
+    padding: 4px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+#domainInput {
+    box-sizing: border-box;
+    margin: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: "tnum";
+    position: relative;
+    display: inline-block;
+    width: 200PX;
+    min-width: 0;
+    padding: 4px 11px;
+    color: rgba(0,0,0,.85);
+    font-size: 14px;
+    line-height: 1.5715;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.content {
+    width: 400px;
+    padding: 20px 10px;
+    font-size: 16px;
+}
+.input {
+    margin-bottom: 20px;
+}
+.tip {
+    font-size: 12px;
+    color: #b9bcc9;
+}

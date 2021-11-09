@@ -1,0 +1,35 @@
+{
+	"manifest_version": 2,
+	"name": "cookie复制",
+	"version": "1.0",
+	"description": "迁移不同域名下的cookie",
+	"author": "zhupengpeng",
+	"icons":
+	{
+		"48": "img/leke.png",
+		"128": "img/leke.png"
+	},
+	"browser_action": 
+	{
+		"default_icon": "img/leke.png",
+		"default_popup": "popup.html"
+	},
+	"background": {
+		"scripts": ["js/background.js"]
+	},
+	"content_scripts": 
+	[
+		
+	],
+	"web_accessible_resources": 
+	[
+		"inject.js"
+	],
+	"permissions":
+	[
+		"tabs",
+		"cookies",
+		"<all_urls>",
+		"notifications"
+	]
+}
